@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.menu {
+    text-align: center;
+    background-color: #7c7474;
+    padding: 20px 0;
+    border-bottom: 3px solid #333;
+}
+.logo{
+
+    display: inline-block;
+    vertical-align:middle ;
+    max-width: 70px;
+    float:left;
+    margin-top: -0.4%;
+}
+
+.menu-item {
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+}
+
+ .menu ul li{
+    display: inline-block;
+    margin: 0 20px;
+    color: #fff;
+}
+
+.menu ul li:houver a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.menu-item:houver{
+    background-color: #333;
+}
+
+.menu-item:houver{
+    color: #f00;
+}
